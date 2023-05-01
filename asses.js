@@ -54,7 +54,7 @@ function addNewBook(book) {
     
 
 }
-addNewBook("The river bettween")
+addNewBook("The river between")
 
 //4. Create a function checkoutBook that takes a book title as an argument and changes
 //the book's isAvailable property to false. If the book is not found in the library, the
