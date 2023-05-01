@@ -49,10 +49,12 @@ getBooksByAuthor("Charles Dickens")
 //publicationYear, and isAvailable).
 
 function addNewBook(book) {
-    let newbook= newbook.push(title("Rebirth").push(author("Ngugi Wa Thiong'o")).publicationYear())
+    let newbook= newbook.push(title("Rebirth").push(author("Ngugi Wa Thiong'o")).publicationYear(1980))
+    console.log(newbook);
     
 
 }
+addNewBook("The river bettween")
 
 //4. Create a function checkoutBook that takes a book title as an argument and changes
 //the book's isAvailable property to false. If the book is not found in the library, the
