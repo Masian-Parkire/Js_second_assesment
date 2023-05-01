@@ -13,22 +13,11 @@ const books = [
     //Write a JavaScript program that performs the following tasks:
 //1. Create a function called getAvailableBooks that returns an array of all available
 //books.
-function getAvailablebooks() {
-    let arr=[]
-//    const newbooks=books.get(title)
-//    console.log(newbooks)
-// books.Object
 
-// for (let i = 0; i < books.length; i++) {
-   
-    
-// }
-// let newbooks=books.get[1,0]
-// console.log(newbooks);
-let newbooks=books.title
-console.log(newbooks)
-}
-getAvailablebooks()
+function getAvailableBooks(books) {
+    return books.filter(book => book.isAvailable);
+  }
+
 
 //2. Create a function getBooksByAuthor that takes an author's name as an argument and
 //returns an array of all books by that author.
